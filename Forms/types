@@ -1,0 +1,18 @@
+The input Types:--
+
+intput type="text"
+eamil
+password
+number
+tel
+file 
+date 
+time
+datetime
+range
+color
+reset
+submit
+----------
+radio
+
