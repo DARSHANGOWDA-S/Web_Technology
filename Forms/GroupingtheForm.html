@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>  
+    </head>
+    <body>
+        <h1>Demo on Forms</h1>
+
+        <forms>
+            <fieldset>
+            <legend align="center">login here</legend>
+            
+             <label>Name:</label>
+            <input type="text" name="name" placeholder="First your name" 
+            required>
+             <input type="text" name="name" placeholder="Last your name" >
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter your email" >
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Enter your password" >
+            <br><br>
+            </fieldset>
+
+            <label>Age:</label>
+            <input type="number" name="age" min="0" max="99"  placeholder="Age" >
+            <br><br>
+
+            <label>Date of Birth📅:</label>
+            <input type="date" name="dob" >
+            <input type="time" name="time" >
+            <br><br>
+
+            <labele>Tel📞:</labele>
+            <input type="tel" name="phnumber" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter your phone number" >
+            <br><br>
+
+            <label>Choosing file📁:</label>
+            <input type="file" name="file">
+            <br><br>
+
+            <label >Zoom here:</label>
+            <input type="range" name="count" min="0" max="100"  value="50">
+            <br><br>
+
+            <label>Color:</label>
+            <input type ="color"name = "colorValue">
+            <br><br>
+
+            <label>Gender:</label>
+            <label for="m">Male</label>
+            <input type ="radio" name = "gender" value = "male" id="m">
+            <label for="f">Female</label>
+            <input type ="radio" name = "gender" value = "Female" id="f">
+            <label for="o">Others</label>
+            <input type ="radio" name = "gender" value = "Order" id="o">
+            <br><br>
+
+            <label>Languages:</label>
+            <label>English</label>
+            <input type="checkbox" name="lang" value="eng">
+            <label>kannada</label>
+            <input type="checkbox" name="lang" value="kan">
+            <label>xyz</label>
+            <input type="checkbox" name="lang" value="xyz">
+            <br><br>
+
+            <label>Choose your city:</label>
+            <select name="city">
+                <option value ="" disabled selected>Select your city</option>
+                <option value="Has">Hassan</option>
+                <option value="Bang">Bangalore</option>
+                <option value="Mys">Mysore</option>
+                <option value="Man">Mandya</option>
+                <option value="Hub">Hubli</option>
+                <option value="Gulb">Gulbarga</option>
+                <option value="Dav">Davangere</option>
+                <option value="Bel">Belgaum</option>
+                <option value="Goa">Goa</option>
+            </select>
+            <br><br>
+
+            <textarea name="message" rows="4" cols="35" placeholder="Enter your Comment here..."></textarea>
+            <br><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Register">
+            <input type="button" value="Click Me" onclick="alert('Button Clicked!')">   
+    </forms>
+    </body>
+    </html>
