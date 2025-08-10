@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Centered Login Page</title>
+</head>
+<body >
+
+    <h1 align="center">🌟 Welcome to Our Portal 🌟</h1>
+    <p align="center">Please login to continue. Fields marked with <sup>*</sup> are mandatory.</p>
+
+    <form action="welcome.html" method="post" style="width: 350px; margin: auto;">
+        <fieldset style="padding: 20px; border-radius: 8px; background-color: white; box-shadow: 0px 0px 10px rgba(0,0,0,0.1);">
+            <legend align="center" style="font-weight: bold; font-size: 18px;">🔐 Login Here</legend>
+
+            <!-- Username -->
+            <label for="username">Username:<sup>*</sup></label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required style="width: 100%; padding: 5px;">
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:<sup>*</sup></label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 5px;">
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:<sup>*</sup></label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required style="width: 100%; padding: 5px;">
+            <br><br>
+
+            <!-- Remember me -->
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Remember me</label>
+            <br><br>
+
+            <!-- Submit -->
+            <input type="submit" value="Login" style="width: 100%; padding: 8px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">
+            <br><br>
+            <input type="reset" value="Clear" style="width: 100%; padding: 8px; background-color: #f44336; color: white; border: none; cursor: pointer;">
+        </fieldset>
+    </form>
+
+    <p align="center" style="margin-top: 15px;">
+        <a href="forgot.html">Forgot Password?</a> | 
+        <a href="register.html">Create New Account</a>
+    </p>
+
+</body>
+</html>
