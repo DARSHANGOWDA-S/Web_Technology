@@ -1,0 +1,66 @@
+/* General Page Styling */
+body {
+    background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Class selector */
+.heading {
+    color: #28a745; /* green */
+}
+
+/* ID selector */
+#head {
+    color: #007bff; /* blue */
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+}
+
+/* Paragraphs with class */
+.para {
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 5px solid #ffc107;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.para:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Normal paragraph */
+p {
+    line-height: 1.6;
+}
+
+/* Input example for attribute selector */
+input[type="email"] {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #fffbe6;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
