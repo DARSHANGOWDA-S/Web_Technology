@@ -64,3 +64,14 @@ input[type="email"]:focus {
     border-color: #007bff;
     outline: none;
 }
+
+/* Button styling */
+button {
+    color: Black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    align-content: center;
+    align-items: center;
+    
+}
