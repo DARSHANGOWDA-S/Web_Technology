@@ -50,3 +50,21 @@ label::after{
     content:"*";
     color: red;
 }
+
+#content-box{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+}
+#border-box{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}   

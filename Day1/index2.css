@@ -1,0 +1,75 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Heading styles */
+#head {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-size: 28px;
+}
+
+/* Paragraph styles */
+.para {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Highlight class example */
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Subheading styles */
+.subheading {
+    margin-top: 20px;
+    color: #34495e;
+}
+
+/* List styling */
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Form input fields */
+.input-field {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button */
+.submit-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}

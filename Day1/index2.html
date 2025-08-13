@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Class Selector Example</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
-      <body>
- 
+<body>
 
+    <h1 id="head" class="heading">Understanding the Class Selector</h1>
     
-      </body>
+    <p class="para">A class selector in CSS is used to style multiple elements that share the same class name.</p>
+    
+    <p class="para">It is written with a dot (.) followed by the class name, like <code>.highlight</code>.</p>
+    
+    <p>Unlike IDs, classes can be applied to many elements on a page, making them great for reusable styles.</p>
+    
+    <p>Example: <code>.highlight { background-color: yellow; }</code> changes all elements with <code>class="highlight"</code>.</p>
+    
+    <p>Class selectors have lower specificity than ID selectors, so IDs will override class styles when both are used together.</p>
+    
+    <h2 class="subheading">Advantages of Class Selectors</h2>
+    <ul>
+        <li>Can be reused across multiple elements.</li>
+        <li>Helps maintain consistent styling.</li>
+        <li>Flexible and easy to modify in CSS.</li>
+    </ul>
+
+    <h2 class="subheading">Example in Action</h2>
+    <p class="highlight">This paragraph has the <code>highlight</code> class applied to give it a yellow background.</p>
+    <p class="highlight">Another highlighted text using the same class.</p>
+
+    <h2 class="subheading">Try It Yourself</h2>
+    <input type="text" placeholder="Enter your name" class="input-field">
+    <input type="email" placeholder="Enter your email" class="input-field">
+    <button class="submit-btn">Submit</button>
+
+</body>
 </html>
