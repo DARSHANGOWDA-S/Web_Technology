@@ -1,3 +1,7 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
 
 html, body {
   height: 100%;
@@ -25,17 +29,16 @@ html, body {
 .preparation{
   background-color: rgb(215, 178, 178);
   border-radius:10px;
+  height: 120px;
   
 }
-.prep{
-  color:pink;
-}
+
 h2{
   color:chocolate
 }
 table {
       border-collapse: collapse;
-      width: 300px;
+      width: 380px;
       text-align: left;
       font-size: 18px;
       justify-content: center;
@@ -52,5 +55,8 @@ table {
     width: 100%;  
     height: auto;
     border-radius: 22px;
+}
+.bag{
+  color:red;
 }
    
