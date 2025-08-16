@@ -1,0 +1,49 @@
+.box1{
+    width:150px;
+    height: 150px;
+    border: 1px solid red;
+
+    transition-property: background-color,border-radius,transform;
+    transition-duration: 3s;
+    transition-delay: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box1:hover{
+    /* transform:scaleX(0.9); */
+    background-color: red;
+    border-radius: 50%;
+}
+
+.box2{
+    width:150px;
+    height:150px;
+    border:1px solid blue;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box2:hover{
+    transform: rotate(180deg);
+
+}
+
+.box3{
+     width:150px;
+    height:150px;
+    border:1px solid rgb(0, 255, 119);
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box3:hover{
+    background-image: url("https://lh3.googleusercontent.com/ogw/AF2bZyic9nv7diatY5rSCset-kmJ8WpCQwj4iAgEdLAmcDRME6Q=s64-c-mo");
+    
+     transform: rotate(360deg);
+    
+
+
+}
+

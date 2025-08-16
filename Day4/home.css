@@ -13,11 +13,11 @@
     justify-content: center;
     text-align: center;
     color: #333;
-    padding: 0 20px;
+    padding: 20px;
 }
 
  h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -42,5 +42,8 @@ html{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWF7NYGoZw_MUcXZRzZptmxHpDrqT-QBryw&s");
     background-size: cover;
     background-position: center;
+}
+.btn:hover{
+    background-color:aqua;  
 }
 
