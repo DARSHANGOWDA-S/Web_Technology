@@ -5,7 +5,10 @@ html, body {
   font-family: 'Times New Roman', Times, serif;
   background:wheat;
   margin:auto;
-  padding-right: ;
+  padding-left: 30%;
+  padding-top: 10%;
+  justify-content: center;
+  
 
 }
 .card{
@@ -14,7 +17,40 @@ html, body {
   background:white;
   border-radius: 22px;
   padding: 36px 24px 28px;
-  box-shadow: var(--shadow);
+}
+.intruduction{
+  width:fit-content;
+
+}
+.preparation{
+  background-color: rgb(215, 178, 178);
+  border-radius:10px;
   
 }
-
+.prep{
+  color:pink;
+}
+h2{
+  color:chocolate
+}
+table {
+      border-collapse: collapse;
+      width: 300px;
+      text-align: left;
+      font-size: 18px;
+      justify-content: center;
+    }
+    th, td {
+      border: 1px solid #00000020;
+      padding: 10px 18px;
+      content: flex;
+    }
+    .nutrition{
+      justify-content: center;
+    }
+   img {
+    width: 100%;  
+    height: auto;
+    border-radius: 22px;
+}
+   
