@@ -1,0 +1,15 @@
+html{
+    background-color: antiquewhite;
+    align-content: center;
+    padding-left: 50px;
+    
+}
+.card{
+    background-color: white;
+    height: 300px;
+    width:200px;
+    border-radius: 30px;
+    align-content: center;
+    display:flex;
+    transform: rotate(15deg);
+}
