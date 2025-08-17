@@ -1,15 +1,106 @@
-html{
-    background-color: antiquewhite;
-    align-content: center;
-    padding-left: 50px;
-    
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;  
+  color: #fff;
 }
-.card{
-    background-color: white;
-    height: 300px;
-    width:200px;
-    border-radius: 30px;
-    align-content: center;
-    display:flex;
-    transform: rotate(15deg);
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 50px;
+}
+
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-stack {
+  position: relative;
+}
+
+.phone {
+  border-radius: 20px;
+  width: 250px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  opacity: 0.8;
+}
+
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box {
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background: #222;
+  color: white;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box .facebook {
+  background: transparent;
+  border: none;
+  color: #0095f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-box {
+  margin-top: 20px;
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.signup-box a {
+  color: #0095f6;
+  text-decoration: none;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin: 20px 0;
 }
