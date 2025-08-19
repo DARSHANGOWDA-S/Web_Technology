@@ -1,0 +1,166 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(196, 196, 241);
+    
+}
+
+#card{
+    width:500px;
+    height:400px;
+    margin:auto;
+    margin-top: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#card >.left{
+    width: 50%;
+    height:100%;
+    background-color: rgb(34, 34, 222);
+    border-radius: 20px;
+    padding:25px;
+}
+
+.left>.box1{
+    width:100%;
+    height:15%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+    
+}
+.left>.box2{
+    width:100%;
+    height:45%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.box2>.circle{
+    width: 120px;
+    height:120px;
+    background-color:rgb(23, 23, 180);
+    border-radius: 50%;
+    color:white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-size: 15px;
+    word-spacing: 3px;
+}
+num{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.num{
+    text-align: center;
+    font-size: 24px; 
+    font-weight: bold;
+}
+.left>.box3{
+    width:100%;
+    height:40%;
+    padding-top: 10px;
+   
+}
+
+.box3>strong{
+    font-size: 20px;
+    color:white;  
+    display:flex;
+    justify-content: center;
+}
+.box3>p{
+    text-align: center;
+    font-size: 15px;
+    color:white;
+    
+}
+
+
+
+/* Right card */
+#card >.right{
+    width:50%;
+    height: 100%;
+    border-radius: 30px;
+    padding: 30px;
+}
+.right>button {
+  width:100%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  word-spacing: 20px;
+}
+
+/* Different colors for each word */
+.reaction { 
+    color: red; 
+    font-weight: bold; 
+  
+
+}
+.memory { 
+    color: green; 
+    font-weight: bold; 
+}
+.verbal {
+     color: blue;
+      font-weight:
+      bold;
+     }
+.visual { 
+    color: purple; 
+    font-weight: bold;
+ }
+
+.score {
+  color: gray;
+  margin-left: 8px;
+}
+
+.continue {
+  background-color: rgb(19, 14, 14);
+  color: white;
+  
+}
+#btn1{
+    background-color: rgb(227, 173, 173);
+}
+#btn2{
+    background-color: rgb(191, 222, 191);
+}
+#btn3{
+    background-color: lightblue;
+}
+#btn4{
+    background-color: rgb(205, 152, 205);
+}
+
+b{
+    color:black;
+}
+
+
+
+
+
+
