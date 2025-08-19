@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: pink;
+    
+}
+
+#card{
+    width:500px;
+    height:400px;
+    margin:auto;
+    margin-top: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#card >.left{
+    width: 50%;
+    height:100%;
+}
+
+#card >.right{
+    width:50%;
+    height: 100%;
+    ;
+    padding: 30px;
+}
+strong{
+    font-size: 20px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+.right>p{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    background-color: green;
+    color:white;
+    width:100%;
+    border:none;
+    text-align: center;
+    border-radius: 10px;
+    height:30px;
+}
+
+button:hover{
+    background-color:greenyellow;
+}
+.left>img{
+    width:100%;
+    height:100%;
+    border-radius: 20px 0px 0px 20px;
+
+}
+.dec{
+    text-decoration:line-through;
+    font-size: 15px;
+
+}
+.perfume{
+    letter-spacing: 5px;
+    color:grey
+}
+.right>.largepara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.right>.head{
+    color: black;
+    font-size: 29px;
+
+}
+
