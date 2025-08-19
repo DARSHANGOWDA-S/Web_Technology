@@ -136,12 +136,6 @@ num{
   color: gray;
   margin-left: 8px;
 }
-
-.continue {
-  background-color: rgb(19, 14, 14);
-  color: white;
-  
-}
 #btn1{
     background-color: rgb(227, 173, 173);
 }
@@ -153,6 +147,12 @@ num{
 }
 #btn4{
     background-color: rgb(205, 152, 205);
+}
+#btncontinue{
+     background-color: rgb(19, 14, 14);
+     color: white;
+     height: 40px;
+     border-radius: 50px;
 }
 
 b{
