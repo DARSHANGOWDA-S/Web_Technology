@@ -6,18 +6,21 @@
 nav{
     width:100%;
     height:40px;
-    background-color: beige;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
     top:0%;
     word-spacing: space evenly;
+    border-radius: 10px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   
 }
 body{
     padding-left: 20px;
     padding-right: 20px;
+    background-color: rgb(244, 241, 237);
 }
 nav>.nav1{
     border:none;
@@ -60,13 +63,13 @@ nav>.nav3{
      background-color: blue;
      color:aliceblue;
      border-radius: 30px;
-     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .nav3>button:hover{
    background-color: aqua;
 }
 .container1{
-    height:250px;
+    height:300px;
     width:100%;
     border:none;
     display: flex;
@@ -77,7 +80,7 @@ nav>.nav3{
 }
 .container1>h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 40px;
 }
 .container1>button{
     height:30px;
@@ -88,17 +91,94 @@ nav>.nav3{
     border: none;
 }
 .container2{
-    height:250px;
+    height:300px;
     width:100%;
-    border:1px solid black;
+    display: flex;
+    justify-content: center;
+   
+}
+.container2>.card2{
+    height:100%;
+    width:550px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card2>img{
+    height: 95%;
+    width:97%;
+    border-radius: 20px;   
 }
 .container3{
-    height:250px;
+    height:320px;
     width:100%;
+    border:none;
+   
+}
+.container3>.box3{
+    height: 30%;
+    width:100%;
+    border:1px solid blue;
+    
+}
+.container3>.boxx3{
+    height: 70%;
+    width:100%;
+    border:1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.boxx3>.boox{
+    height: 100%;
+    width:32%;
+  
     border:1px solid black;
 }
+
 .container4{
-    height:250px;
+    height:320px;
     width:100%;
     border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container4>.box4{
+    height: 100%;
+    width:50%;
+    border:1px solid black;
+    
+}
+.container5{
+    height:320px;
+    width:100%;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer{
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+.footer>.footleft{
+    height: 100%;
+    width: 50%;
+    border: 1px solid blue;
+
+}
+.footer>.footright{
+    height: 100%;
+    width: 50%;
+    border: 1px solid red;
+    
 }
