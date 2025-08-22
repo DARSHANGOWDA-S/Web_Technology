@@ -9,7 +9,6 @@
     height: auto;
     border: none;
     margin: auto;
-    
     display: flex;
     background-color: rgb(245, 234, 218);
 }
@@ -24,6 +23,7 @@
 }
 .card>.Desserts>h1{
     padding-bottom: 10px;
+    color:brown;
 }
 
 .card>.Desserts>.left{
@@ -54,7 +54,7 @@
     border-radius: 15px;
     padding: 5px;
     position: relative;
-    bottom: 20px;
+    bottom: 30px;
     margin-left: 15%;
     border: 1px solid brown;
 }
@@ -63,7 +63,7 @@
 }
 
 .left>.box>button:hover{
-    background-color: rgb(236, 59, 59);
+    background-color: greenyellow;
 }
 
 .left>.box>p{
