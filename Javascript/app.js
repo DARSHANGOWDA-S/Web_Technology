@@ -14,9 +14,13 @@ let student={
         kannada: 95,
         english: 88
     }
-}
+};
+ console.log(student.name);
+ console.log(student.id);
+ console.log(student.city);
 
-student.printDetails();
-console.log(student.marks.kannada);
-student.marks.science=90;
-console.log(student.marks);
+ student.id=102;
+ student.city="Los Angeles";
+
+ delete student.id;
+    console.log(student);

@@ -24,8 +24,9 @@ class Student{
     printDetails(){
         console.log(this.name);
         console.log(this.id);
+        
+    }
+    printDetails(){
         console.log(this.city);
     }
-}
-let student1=new Student("Alice",201,"Los Angeles");
-student1.printDetails();
+};
